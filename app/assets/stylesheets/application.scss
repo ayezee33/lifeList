@@ -12,3 +12,30 @@
  *
  */
  @import "bootstrap";
+ @import "variables";
+ @import "lists";
+ @import "goals";
+ * {
+ 	box-sizing: border-box;
+ }
+ html {
+   height: 100%;
+ }
+ body {
+  	height: 100%;
+   background: rgba(45,70,113,1);
+   background: -moz-linear-gradient(-45deg, rgba(45,70,113,1) 0%, rgba(36,107,98,1) 100%);
+   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(45,70,113,1)), color-stop(100%, rgba(36,107,98,1)));
+   background: -webkit-linear-gradient(-45deg, rgba(45,70,113,1) 0%, rgba(36,107,98,1) 100%);
+   background: -o-linear-gradient(-45deg, rgba(45,70,113,1) 0%, rgba(36,107,98,1) 100%);
+   background: -ms-linear-gradient(-45deg, rgba(45,70,113,1) 0%, rgba(36,107,98,1) 100%);
+   background: linear-gradient(135deg, rgba(45,70,113,1) 0%, rgba(36,107,98,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d4671', endColorstr='#246b62', GradientType=1 );
+   font-family: 'Lato', sans-serif;
+ }
+.navbar {
+  margin-bottom: 5em;
+  a {
+    color: $light!important;
+  }
+}

@@ -1,0 +1,15 @@
+// Place all the styles related to the Lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.trans-form {
+  background: $white_opaque;
+  border-radius: 5px;
+  padding: 2em;
+  textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    color: #55595c;
+    padding: 0.5rem 0.75rem;
+  }
+}

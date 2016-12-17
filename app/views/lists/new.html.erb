@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3 trans-form">
+      <%= simple_form_for @lists do |f| %>
+        <%= f.input :title, placeholder: "Name Your Life List",  label_html: { class: 'hidden-xl-down' } %>
+        <%= f.text_area :description, placeholder: "Life List Description",  label_html: { class: 'hidden-xl-down form-control' } %>
+        <%= f.button :submit, 'Create My Life List', :class => 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>

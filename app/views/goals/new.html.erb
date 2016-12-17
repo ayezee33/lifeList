@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <%= simple_form_for :goals, html: { class: 'form-inline' },
+      wrapper: :horizontal_form  do |f| %>
+        <%= f.input :title, label_html: { class: 'hidden-xl-down' } %>
+        <%= f.date_field :date %>
+        <%= f.button :submit, :class => 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+</div>
